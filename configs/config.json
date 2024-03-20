@@ -1,0 +1,42 @@
+{
+    "alert_on_awake": false,
+
+    "keys_file": "configs/keys.json",
+    "token_file": "configs/token.txt",
+    "log_file": "configs/log.txt",
+
+    "auth_command": "auth",
+    "auth_cmd_desc": "Authenticate.",
+
+
+
+    "enable_logging": true,
+
+    "success-log_to_console": true,
+    "success-log_to_file": true,
+
+    "failure-log_to_console": true,
+    "failure-log_to_file": true,
+
+
+
+
+    "key_res_embed": {
+        "success": {
+            "title": "Successful.",
+            "desc": "You've been successfully authenticated!",
+            "color": [0, 255, 0]
+        },
+        "failure": {
+            "title": "Failed",
+            "desc": "Failed to authenticate you.",
+            "color": [255, 0, 0]
+        }
+    },
+
+    "messages": {
+        "awake": "I'm ALIVE!",
+
+        "modal_key_input_name": "Key"
+    }
+}
